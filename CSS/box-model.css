@@ -1,0 +1,10 @@
+/*
+    Analisar os layouts como caixas
+    É possível movimenta-las, para cima, para baixo
+    Posicionar, mudar o jeito da caixa...
+*/
+h1, p, button {
+    border: 1px solid red;
+    margin: 20px;
+    padding: 10px;
+}

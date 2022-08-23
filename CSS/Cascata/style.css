@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+}
+
+/* Irá somar com a declaração abaixo */
+h1 {
+    font-size: 60px;
+}
+
+/* Irá sobreescrever a declaração acima */
+h1.title#myTitle, strong {
+    color: blue;
+}
+
+* {
+    color: green;
+}
+
+.title{
+    color: cyan !important; /*important prevalece acima de tudo*/
+}
+
+/*Mais forte que o universal*/
+#myTitle {
+    color: blueviolet;
+}

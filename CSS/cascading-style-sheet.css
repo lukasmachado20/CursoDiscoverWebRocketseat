@@ -1,0 +1,13 @@
+/* CSS = Cascading Style Sheet*/
+
+h1 {
+    color: blue;
+    font-size: 60px;
+    background: gray;
+}
+
+/*
+    Selector = h1 - todas tags que tiverem h1 vão ter as propriedades acima
+    Declaration = o bloco onde as propriedades foram definidas
+    Properties = color , font-size , background ...
+*/

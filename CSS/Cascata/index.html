@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!--irá consi-->
+    <link rel="stylesheet" href="style2.css">
+    <!--segundo na ordem de leitura em cascata-->
+    <style>
+        h1 {
+            color: cyan;
+        }
+    </style>
+    <!--irá considerar este na leitura em cascata-->
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!--ordem de leitura do style inline eh a mais forte de todas-->
+    <h1 class="title" id="myTitle">Título <strong>eh us guri</strong></h1>
+    <p>Parágrafo</p>
+</body>
+</html>
