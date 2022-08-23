@@ -1,6 +1,6 @@
 # Vendor Prefixes
 
-Permite que os browsers adicionem `features` a fim de colocar em usso alguma novidade que vemos no CSS
+Permite que os browsers adicionem `features` a fim de colocar em uso alguma novidade que vemos no CSS.
 
 # Exemplo
 
