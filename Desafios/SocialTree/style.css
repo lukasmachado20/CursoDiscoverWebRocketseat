@@ -1,0 +1,52 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+body { /* utilizado para definir o viewport da tela*/
+    width: 100vw;
+    height: 100vh;
+}
+
+#container { /* container da imagem de perfil*/
+    width: 20vh; /* IMPORTANTE: para fazer um circulo a altura e largura deve ser a mesma*/
+    height: 20vh;
+    border: 1px solid #BB99DD; /* cor da borda*/
+    padding: .2em; /* espaço entre o conteudo e o container*/
+    margin: 100px auto; /* isto centraliza na tela*/
+    border-radius: 50%; /* deixa o container em formato circular*/
+    text-align: center;
+    align-items: center;
+}
+
+#foto-perfil {
+    border-radius: 50%; /* deixa o conteúdo no formato circular*/
+    width: 20vh;
+    height: 20vh;
+    background-image: url("./assets/perfil.jpg");
+    background-repeat: no-repeat; /* impede a repetição da imagem*/
+    background-position: center;  
+    background-size: cover; /* ajusta a imagem dentro do container */
+}
+
+.link-instagram {
+    margin: 10px;
+    color: #BB99DD;
+}
+
+a {
+ color: #BB99DD;
+}
+
+.links-extra {
+    width: 100%;
+    height: 100%;
+    margin: 10px 10px 10px 0px;
+    padding: 5px 0 5px;
+    border: 1px solid #BB99DD;
+    border-radius: 5px;
+}
+
+img {
+    margin: 10px 0 5px 5px ;
+}

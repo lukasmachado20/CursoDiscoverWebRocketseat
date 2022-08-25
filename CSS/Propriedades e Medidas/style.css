@@ -1,0 +1,13 @@
+
+/*alterando elemento root*/
+html { /* ou :root */
+    font-size: 14px;
+}
+
+div {
+    font-size: 32px;
+}
+
+p {
+    font-size: 20vw; /* multiplica por 2 relativo a fonte do pai */
+}

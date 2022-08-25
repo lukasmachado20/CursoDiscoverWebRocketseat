@@ -1,0 +1,20 @@
+
+/*não consegui colocar imagem na tela inteira*/
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    background-image: url("http://source.unsplash.com/random");
+    background-repeat: no-repeat;
+    /*background-position: right 50px;*/
+}
+
+.box::after {
+    content: "maneiro demais!!!!";
+    color: white;
+}

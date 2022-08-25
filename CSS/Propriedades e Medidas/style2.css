@@ -1,0 +1,17 @@
+html {
+    font-size: 100%; /* relativo ao que está armazenado no browser, neste caso 16*/
+}
+
+li {
+    font-size: 80%;
+}
+
+div {
+    background-color: blue;
+    width: 50%;
+    height: 100px;
+}
+
+body {
+    width: 50%;
+}
