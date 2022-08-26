@@ -1,0 +1,42 @@
+* {margin: 0;}
+/*
+div, section {
+    border: 1px solid red;
+    padding: 10px 2em 8px 50%;
+    display: inline;
+    margin: 0 2px; elementos um ao lado do outro não ocorre margin colapse
+}
+margin: auto; aplica-se apenas as laterais e não na vertical
+div {
+    margin-bottom: 8px;
+}
+
+section {
+    margin-top: 12px;
+}*/
+.container {
+    width: 50px;
+    height: 20px;
+    margin: 20% auto;
+
+
+    border-top: 5px solid rgb(250, 116, 116);
+    border-right:  solid rgb(255, 76, 76) 5px;
+    border-left: solid rgb(235, 163, 163) 5px;
+    border-bottom: solid rgb(248, 129, 129) 5px;
+    text-align: center;
+}
+
+div {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 116, 116);
+    outline: orange solid 2px;
+}
+
+a {
+    display: inline-block;
+    font-size: 1em;
+    width: 100%;
+    height: 100%;
+}
